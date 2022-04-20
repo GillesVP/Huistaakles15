@@ -1,0 +1,19 @@
+body{background-color: powderblue; font-family: Verdana, sans-serif; padding: 5px;}
+
+div, p, img{display: inline-block;}
+
+body, header, footer{padding: 5px;}
+
+.p1{color: darkslateblue; background-color: lavender; width: 750px; height: auto;}
+
+table{border-collapse: collapse; width: 400px;}
+th{padding: 5px 5px; background-color: steelblue; color: white;}
+td{padding: 10px 15px; background-color: skyblue;}
+
+ul a{color: white; text-decoration: none;}
+li{display: inline-block; height: 20px; width: 150px; padding: 10px; text-align: center; color: white; border-left: 1px blue; border-right: 2px blue; background-color: midnightblue;}
+li:hover{background-color: royalblue; border-style: none;}
+
+input[type="text"], input[type="email"], textarea, select, button{display: block; margin: 10px 0px; width: 350px; box-sizing: border-box; border-radius: 5px; box-shadow: inset 1px 1px 2px lightsteelblue;}
+textarea{height: 200px; background-color: white; padding: 5px 5px;}
+button:active{background-color: royalblue; color: floralwhite; border-radius: 8px; box-shadow: inset 2px 2px 5px navy;}
